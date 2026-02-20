@@ -1,9 +1,28 @@
 import { GameHeader } from "./GameHeader"
 
+const cardValues = [
+  "🐵",
+  "🐶",
+  "🐺",
+  "🐱",
+  "🦁",
+  "🐯",
+  "🦒",
+  "🦊",
+  "🐵",
+  "🐶",
+  "🐺",
+  "🐱",
+  "🦁",
+  "🐯",
+  "🦒",
+  "🦊"
+]
+
 function App() {
   return (
     <div className="App">
-      <GameHeader />
+      <GameHeader score={3} moves={10}/>
     </div>
   )
 }
