@@ -13,5 +13,5 @@ export const GameHeader = ({score, moves}) => {
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
